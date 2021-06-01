@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    width: 1366px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px auto 200px;
+    grid-row-gap: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+img{
+    display:flex;
+    height:100px;
+    padding:20px 0px 20px 0px;
+}
+header, main, footer{
+    background-color: blue;
+}
