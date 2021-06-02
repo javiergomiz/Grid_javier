@@ -5,9 +5,13 @@ body{
 .contenedor{
     width: 1366px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 80px auto 200px;
-    grid-row-gap: 30px;
+    grid-template-rows: 135px 950px 80px;
+    grid-row-gap: 20px;
+
+    grid-template-areas: 
+    ". navegacion ."
+    "pic1 ."
+    ;
 }
 h1{
     display: flex;
@@ -21,20 +25,22 @@ nav{
     display: flex;
     justify-content:space-between;
 }
+.imagenes{
+    width: 1366px;
+}
 .pic1{
     display:flex;
-    justify-content:border-box;
-    height:100px;
-
+    width:100%;
 }
 .pic2{
     display:flex;
-    height:100px;
+    width:100%;
     padding:10px 0 0 0;
 }
 p{
     padding: 0;
+    width:50%;
 }
 header, main, footer{
-    background-color: blue;
+    background-color:rgba(255, 127, 80, 0.473)
 }
