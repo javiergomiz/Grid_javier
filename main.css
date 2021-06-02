@@ -9,9 +9,8 @@ body{
     grid-row-gap: 20px;
 
     grid-template-areas: 
-    ". navegacion ."
-    "pic1 ."
-    ;
+    
+    1;
 }
 h1{
     display: flex;
